@@ -1,0 +1,15 @@
+digraph Apptainer {
+    rankdir=LR; // Set direction from left to right
+    node [fontname="Arial", fontsize=14, shape="plaintext"];
+    edge [fontname="Arial", fontsize=14, center="true"];
+
+    Input_Definition_File [label="Definition File\n(recipe.def)"];
+    Input_Optional_Files [label="Optional Files"];
+    Output_Image_File [label="Image File\n(image.sif)"];
+
+    Apptainer [label="Apptainer\nLocal Build", fillcolor="lightblue", fontname="Arial", shape="folder"];
+
+    Input_Definition_File -> Apptainer;
+    Input_Optional_Files -> Apptainer;
+    Apptainer -> Output_Image_File;
+}

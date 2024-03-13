@@ -1,0 +1,13 @@
+digraph Plot {
+    rankdir=LR; // Set direction from left to right
+    node [fontname="Arial", fontsize=14, shape="plaintext"];
+    edge [fontname="Arial", fontsize=14, center=true]; // center the arrows
+
+    Alice [label="Alice", shape="ellipse", fillcolor="lightblue", style="filled"];
+    Bob [label="Bob", shape="ellipse", fillcolor="lightblue", style="filled"];
+    Charlie [label="Charlie", shape="ellipse", fillcolor="lightblue", style="filled"];
+
+    Alice -> Bob [label="Meets"];
+    Bob -> Charlie [label="Meets"];
+    Alice -> Charlie [label="Discussion"];
+}
