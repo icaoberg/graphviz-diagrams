@@ -1,6 +1,3 @@
-Sure! Here's a sample `README.md` for your GitHub repository:
-
-```markdown
 # Graphviz Dot Files for Presentations
 
 Welcome to the repository of Graphviz dot files used for generating graphs in presentations, lectures, and posters. This collection includes various dot files that produce visual representations of data and concepts, enhancing the clarity and impact of your presentations.
@@ -49,6 +46,3 @@ Contributions are welcome! If you have any dot files that you think would be a v
 ## License
 
 This repository is licensed under the MIT License. See the LICENSE file for more information.
-```
-
-Feel free to customize this template to better fit your needs! If you have any specific sections or details you'd like to add, let me know.
