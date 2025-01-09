@@ -28,10 +28,10 @@ if dot -Tpng -Gdpi=600 "$input_file" -o "$output_file"; then
     echo "Graph successfully generated: $output_file"
     
     # Open the output file with an image viewer
-    if command -v eog &>/dev/null; then
-        eog "$output_file" &
+    if command -v feh &>/dev/null; then
+        feh "$output_file" &
     else
-        echo "Note: 'eog' is not installed or available. Please open '$output_file' manually."
+        echo "Note: 'feh' is not installed or available. Please open '$output_file' manually."
     fi
 else
     echo "Error: Failed to generate the graph."
